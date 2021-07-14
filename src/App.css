@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  margin: 5px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#search-button{
+  padding: 4px;
+}
+
+.img-gif {
+  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
