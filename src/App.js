@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Gallery />
-        {gifs.map(({id,title,webp,rating}) => (
+       {gifs.map(({id,title,webp,rating}) => (
         <img src={webp} title={title} alt={title} key={id} />
-      ))}
+       ))}
     </div>
   );
 }

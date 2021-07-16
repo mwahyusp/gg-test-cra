@@ -72,5 +72,4 @@ const gif = [
     webp: 'https://media0.giphy.com/media/x2woMnCz4W0Vy/giphy.webp?cid=cb3f2bebpuo6jj0g5f9gfibjre2zzbb4yb1cfshtplanlrpw&rid=giphy.webp&ct=g',
   },
 ];
-
 export default gif;
