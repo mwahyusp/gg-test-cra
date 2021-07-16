@@ -10,7 +10,7 @@ function Gallery() {
         <button id="search-button">Search</button>
       </form>
       <Search />
-      <Image img={Data.url} title={Data.title} />
+      <Image img={Data.webp} title={Data.title} />
     </div>
   );
 }
