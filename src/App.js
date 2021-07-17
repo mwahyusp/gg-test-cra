@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Gallery />
        {gifs.map(({id,title,webp,rating}) => (
-        <img src={webp} title={title} alt={title} key={id} />
+        rating === 'g' && <img src={webp} title={title} alt={title} key={id} />
        ))}
     </div>
   );
