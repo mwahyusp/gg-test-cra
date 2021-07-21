@@ -1,14 +1,10 @@
 import "./App.css";
-import Gallery from "./Pages/Gallery.js";
-import gifs from "./Data/dataGif";
+import Gallery from "./Pages/Gallery";
 
 function App() {
   return (
     <div className="App">
       <Gallery />
-       {gifs.map(({id,title,webp,rating}) => (
-        rating === 'g' && <img src={webp} title={title} alt={title} key={id} />
-       ))}
     </div>
   );
 }
