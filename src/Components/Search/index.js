@@ -1,13 +1,11 @@
-function index(props) {
+import React from "react";
+
+function index({handleClick}) {
   return (
-    <div className="gambar">
-      <img
-        src={props.img}
-        alt={props.title}
-        title={props.title}
-      />
-      <p>{props.title}</p>
-    </div>
+    <form className="search" onSubmit={handleClick}>
+      <input type="text" name="query" />
+      <input type="submit" value="search" />
+    </form>
   );
 }
 
