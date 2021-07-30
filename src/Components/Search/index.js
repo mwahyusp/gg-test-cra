@@ -1,6 +1,4 @@
-import React from "react";
-
-function index({handleClick}) {
+function index(handleClick) {
   return (
     <form className="search" onSubmit={handleClick}>
       <input type="text" name="query" />
